@@ -1,0 +1,914 @@
+.but {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 60px;
+  font-family: "Rubik", sans-serif;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
+
+.but:hover {
+  color: #fff;
+  background-color: #dc0539;
+}
+
+.h4, .world .world-dec h4, .design .design-dec h4, .optimizing .optimizing-dec h4 {
+  margin-bottom: 1.5rem !important;
+  color: #333;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+
+.h2, .world .world-dec h2, .design .design-dec h2, .optimizing .optimizing-dec h2 {
+  font-weight: 700;
+  color: #333;
+  font-family: "Crimson Text", serif;
+  margin-bottom: 1.5rem !important;
+}
+
+.p, .world .world-dec p, .design .design-dec p, .optimizing .optimizing-dec p {
+  color: #333;
+  font-family: "Crimson Text", serif;
+  margin-bottom: 1.5rem !important;
+}
+
+.a, .world .world-dec a, .design .design-dec a, .optimizing .optimizing-dec a {
+  margin-bottom: 1.5rem !important;
+  color: #dc0539;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+
+.img, .world .world-img img, .design .design-img img {
+  width: 90%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.fixed-top {
+  background-color: #fff;
+}
+
+.navbar {
+  padding: 20px 30px;
+}
+
+.navbar .navbar-collapse .navbar-nav {
+  margin-left: 60px;
+  line-height: 20px;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: #333;
+  margin: 0 0 0 20px;
+  font-style: normal;
+  letter-spacing: -0.5px;
+  font-size: 17px;
+  font-family: "Rubik", sans-serif;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #dc0539;
+}
+
+header {
+  padding: 60px 30px;
+  position: relative;
+}
+
+header .header-dec {
+  position: absolute;
+  top: 160px;
+  left: 40px;
+}
+
+header .header-dec h5 {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+header .header-dec h3 {
+  width: 72%;
+  font-size: 72px;
+  font-family: "Crimson Text", serif;
+  font-weight: bold;
+}
+
+header .header-dec h3 span {
+  position: relative;
+}
+
+header .header-dec h3 span::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://www.smashbrand.com/wp-content/themes/smashbrand/assets/images/elements/underlines.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+header .header-dec p {
+  margin-top: 20px;
+  width: 72%;
+  font-size: 22px;
+}
+
+header .header-images {
+  position: relative;
+  overflow: hidden;
+}
+
+header .header-images .img-element-2 {
+  position: absolute;
+  right: -30px;
+  top: 20px;
+  z-index: 1;
+  width: 50%;
+}
+
+header .header-images .img-element-3 {
+  position: absolute;
+  top: 400px;
+  left: -10px;
+  z-index: 2;
+  width: 40%;
+}
+
+.process {
+  padding: 40px 60px;
+}
+
+.process h3 {
+  font-family: "Crimson Text", serif;
+  font-size: 50px;
+  color: #333;
+  width: 50%;
+  font-weight: 700;
+}
+
+.process p {
+  width: 50%;
+  font-size: 24px;
+  margin-top: 30px;
+  font-family: "Crimson Text", serif;
+  color: #333;
+}
+
+.packaging {
+  padding: 40px 60px;
+  overflow: hidden;
+  position: relative;
+}
+
+.packaging .packaging-item .card {
+  padding: 4rem;
+  min-height: 28.125rem;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
+
+.packaging .packaging-item .card .card-body {
+  position: relative;
+}
+
+.packaging .packaging-item .card .card-body img {
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.packaging .packaging-item .card .card-body .card-title {
+  color: #333;
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 1rem !important;
+  font-weight: 700;
+}
+
+.packaging .packaging-item .card .card-body .card-text {
+  color: #333;
+  font-family: "Crimson Text", serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.packaging .packaging-item .card .number {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 22px;
+  color: #dc0539;
+  font-weight: 700;
+}
+
+.packaging .packaging-item .card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 5px;
+  background: #dc0539;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
+
+.packaging .packaging-item .card:hover::before {
+  width: 100%;
+}
+
+.packaging .packaging-item .card:hover {
+  -webkit-box-shadow: 1px -1px 18px 7px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px -1px 18px 7px rgba(0, 0, 0, 0.1);
+}
+
+.sweet {
+  background-image: url("https://www.smashbrand.com/wp-content/uploads/2020/07/casestudy-ornament.png");
+  background-position: bottom right;
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-color: #fafaf9;
+  overflow: hidden;
+  padding: 140px 0 0;
+  position: relative;
+}
+
+.sweet .sweet-img img {
+  width: 110%;
+  transform: translateX(-10%);
+  -webkit-transform: translateX(-10%);
+  -moz-transform: translateX(-10%);
+  -ms-transform: translateX(-10%);
+  -o-transform: translateX(-10%);
+}
+
+.sweet .sweet-img .sweet-img-element {
+  position: absolute;
+  bottom: -50px;
+  right: 10px;
+  width: 30%;
+}
+
+.sweet .sweet-dec {
+  margin-top: 181px;
+}
+
+.sweet .sweet-dec h2 {
+  position: relative;
+  width: 72%;
+  font-size: 72px;
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -2px;
+  line-height: 72px;
+  text-transform: capitalize;
+  margin-bottom: 100px;
+}
+
+.sweet .sweet-dec h2 span::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40%;
+  height: 170%;
+  background-image: url("https://www.smashbrand.com/wp-content/themes/smashbrand/assets/images/elements/underlines.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.sweet .sweet-purchase h5 {
+  line-height: 1.1;
+  color: #dc0539;
+  font-size: 40px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.sweet .sweet-purchase p {
+  margin-top: 20px;
+  width: 34%;
+  font-size: 22px;
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 3px;
+}
+
+.sweet .sweet-purchase a {
+  color: #dc0539;
+  font-size: 22px;
+}
+
+.branding {
+  padding: 70px 0;
+}
+
+.branding .branding-dec {
+  width: 50%;
+  margin: auto;
+}
+
+.branding .branding-dec h2 {
+  font-family: "Crimson Text", serif;
+  color: #333;
+  font-size: 59px;
+  font-weight: 700;
+  margin-bottom: 11px;
+}
+
+.branding .branding-dec p {
+  font-size: 30px;
+  font-family: "Crimson Text", serif;
+}
+
+.world {
+  padding: 30px 60px;
+}
+
+.world .world-dec h2 {
+  font-size: 52px;
+}
+
+.world .world-dec p {
+  font-size: 22px;
+}
+
+.world .world-dec a {
+  font-size: 19px;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
+
+.world .world-dec a i {
+  margin-right: 12px;
+}
+
+.design {
+  padding: 30px 60px;
+}
+
+.design .design-dec {
+  margin-top: 50px;
+}
+
+.design .design-dec h2 {
+  width: 64%;
+  font-size: 43px;
+}
+
+.design .design-dec p {
+  width: 74%;
+  font-size: 23px;
+}
+
+.optimizing {
+  padding: 30px 60px;
+}
+
+.optimizing .optimizing-dec h2 {
+  width: 64%;
+  font-size: 43px;
+}
+
+.optimizing .optimizing-dec p {
+  width: 74%;
+  font-size: 23px;
+}
+
+.optimizing .optimizing-img img {
+  width: 80%;
+}
+
+.sells {
+  background-color: #fafaf9;
+  overflow: hidden;
+  padding: 140px 0;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.sells .sells-dec h2 {
+  width: 100%;
+  font-size: 82px;
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  color: #333;
+}
+
+.sells .sells-dec h2 span {
+  position: relative;
+}
+
+.sells .sells-dec h2 span::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://www.smashbrand.com/wp-content/themes/smashbrand/assets/images/elements/underlines.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.sells .sells-img {
+  position: relative;
+}
+
+.sells .sells-img .img-One {
+  position: absolute;
+  top: -40px;
+  right: -312px;
+  z-index: 2;
+}
+
+.sells .sells-img .img-Two {
+  position: absolute;
+  width: 140%;
+  z-index: 1;
+  right: -341px;
+  top: -139px;
+}
+
+@media (max-width: 1271px) {
+  .but {
+    padding: 10px 10px;
+    font-size: 13px;
+  }
+  .navbar .navbar-collapse .navbar-nav {
+    margin-left: 10px;
+  }
+  .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: #333;
+    margin: 0 0 0 10px;
+    font-style: normal;
+    letter-spacing: -0.5px;
+    font-size: 17px;
+    font-family: "Rubik", sans-serif;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+  }
+  .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+    color: #dc0539;
+  }
+  header .header-dec h3 {
+    width: 100%;
+    font-size: 37px;
+  }
+  header .header-dec p {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 22px;
+  }
+  .packaging {
+    padding: 30px 60px;
+    overflow: hidden;
+    position: relative;
+  }
+  .packaging .packaging-item .card {
+    padding: 1rem;
+    min-height: 18.125rem;
+    text-align: center;
+  }
+  .packaging .packaging-item .card .card-body {
+    position: relative;
+  }
+  .packaging .packaging-item .card .card-body img {
+    width: 30%;
+    margin: 30px 0;
+  }
+  .sweet {
+    padding: 26px;
+  }
+  .sweet .sweet-dec {
+    margin-top: 10px;
+  }
+  .sweet .sweet-dec h2 {
+    width: 100%;
+    font-size: 53px;
+    margin-bottom: 30px;
+  }
+  .sweet .sweet-purchase p {
+    width: 100%;
+    font-size: 33px;
+  }
+  .branding {
+    padding: 70px 0;
+  }
+  .branding .branding-dec {
+    width: 100%;
+    margin: auto;
+  }
+  .branding .branding-dec h2 {
+    font-family: "Crimson Text", serif;
+    color: #333;
+    font-size: 39px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  .branding .branding-dec p {
+    font-size: 27px;
+    font-family: "Crimson Text", serif;
+  }
+  .world {
+    padding: 30px;
+  }
+  .world .world-dec h2 {
+    font-size: 30px;
+  }
+  .world .world-img img {
+    width: 100%;
+  }
+  .design {
+    padding: 30px;
+  }
+  .design .design-img img {
+    width: 120%;
+  }
+  .design .design-dec {
+    margin-top: 50px;
+  }
+  .design .design-dec h2 {
+    width: 100%;
+    font-size: 33px;
+  }
+  .design .design-dec p {
+    width: 100%;
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 991px) {
+  .media-img {
+    display: block !important;
+  }
+  .media-img .design-img img {
+    width: 90%;
+  }
+  .navbar .navbar-collapse .navbar-nav {
+    margin-left: 0px;
+  }
+  .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    margin: 0;
+  }
+  .navbar .navbar-toggler {
+    padding: 15px 0 0;
+  }
+  .navbar .navbar-toggler i {
+    font-size: 30px;
+  }
+  .navbar .navbar-toggler i:hover {
+    color: #dc0539;
+  }
+  .navbar .navbar-toggler:hover {
+    outline: 0;
+  }
+  .navbar .navbar-toggler:focus {
+    outline: 0;
+  }
+  header .header-dec h3 {
+    width: 100%;
+    font-size: 37px;
+  }
+  header .header-dec p {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 22px;
+  }
+  header .header-images {
+    top: 99px;
+  }
+  header .header-images .img-element-3 {
+    position: absolute;
+    top: 240px;
+    left: -10px;
+    z-index: 2;
+    width: 40%;
+  }
+  .process {
+    padding: 50px 60px;
+  }
+  .process h3 {
+    font-family: "Crimson Text", serif;
+    font-size: 30px;
+    color: #333;
+    width: 100%;
+    font-weight: 700;
+  }
+  .process p {
+    width: 100%;
+    font-size: 26px;
+    margin-top: 30px;
+    font-family: "Crimson Text", serif;
+    color: #333;
+  }
+  .packaging {
+    padding: 30px 60px;
+    overflow: hidden;
+    position: relative;
+  }
+  .packaging .packaging-item .card {
+    padding: 1rem;
+    min-height: 18.125rem;
+    text-align: center;
+  }
+  .packaging .packaging-item .card .card-body {
+    position: relative;
+  }
+  .packaging .packaging-item .card .card-body img {
+    width: 30%;
+    margin: 30px 0;
+  }
+  .branding {
+    padding: 70px 0;
+  }
+  .branding .branding-dec {
+    width: 100%;
+    margin: auto;
+  }
+  .branding .branding-dec h2 {
+    font-family: "Crimson Text", serif;
+    color: #333;
+    font-size: 39px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  .branding .branding-dec p {
+    font-size: 27px;
+    font-family: "Crimson Text", serif;
+  }
+  .world {
+    padding: 30px;
+  }
+  .world .world-dec h2 {
+    font-size: 30px;
+  }
+  .world .world-img img {
+    width: 100%;
+  }
+  .design {
+    padding: 30px;
+  }
+  .design .design-img img {
+    width: 100%;
+  }
+  .design .design-dec {
+    margin-top: 50px;
+  }
+  .design .design-dec h2 {
+    width: 100%;
+    font-size: 33px;
+  }
+  .design .design-dec p {
+    width: 100%;
+    font-size: 23px;
+  }
+  .optimizing {
+    padding: 30px;
+  }
+  .optimizing .optimizing-dec h2 {
+    width: 100%;
+    font-size: 33px;
+  }
+  .optimizing .optimizing-dec p {
+    width: 100%;
+    font-size: 23px;
+  }
+  .optimizing .optimizing-img img {
+    width: 80%;
+  }
+  .sells {
+    background-color: #fafaf9;
+    padding: 60px 30px;
+    position: relative;
+  }
+  .sells .sells-dec {
+    margin-bottom: 86px;
+  }
+  .sells .sells-dec h2 {
+    width: 100%;
+    font-size: 58px;
+  }
+  .sells .sells-img {
+    position: relative;
+  }
+  .sells .sells-img .img-One {
+    position: absolute;
+    top: 17px;
+    z-index: 2;
+    width: 100%;
+    left: -63px;
+  }
+  .sells .sells-img .img-Two {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    right: -175px;
+    top: -38px;
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    padding: 11px 15px;
+  }
+  header .header-dec h3 {
+    width: 100%;
+    font-size: 37px;
+  }
+  header .header-dec p {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 22px;
+  }
+  header .header-images {
+    position: relative;
+    top: 404px;
+    margin-bottom: 289px;
+  }
+  header .header-images .img-element-1 {
+    position: relative;
+    z-index: 3;
+  }
+  header .header-images .img-element-2 {
+    position: absolute;
+    right: -10px;
+    top: 20px;
+    z-index: 1;
+    width: 50%;
+  }
+  header .header-images .img-element-3 {
+    position: absolute;
+    top: 200px;
+    left: -10px;
+    z-index: 2;
+    width: 40%;
+  }
+  .process {
+    padding: 50px 60px;
+  }
+  .process h3 {
+    font-family: "Crimson Text", serif;
+    font-size: 20px;
+    color: #333;
+    width: 100%;
+    font-weight: 700;
+  }
+  .process p {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: "Crimson Text", serif;
+    color: #333;
+  }
+  .packaging {
+    padding: 30px 60px;
+    overflow: hidden;
+    position: relative;
+  }
+  .packaging .packaging-item .card {
+    padding: 1rem;
+    min-height: 18.125rem;
+    text-align: center;
+  }
+  .packaging .packaging-item .card .card-body {
+    position: relative;
+  }
+  .packaging .packaging-item .card .card-body img {
+    width: 30%;
+    margin: 30px 0;
+  }
+  .sweet {
+    padding: 26px;
+  }
+  .sweet .sweet-dec {
+    margin-top: 10px;
+  }
+  .sweet .sweet-dec h2 {
+    width: 100%;
+    font-size: 53px;
+    margin-bottom: 30px;
+  }
+  .sweet .sweet-purchase p {
+    width: 100%;
+    font-size: 22px;
+  }
+  .branding {
+    padding: 70px 0;
+  }
+  .branding .branding-dec {
+    width: 100%;
+    margin: auto;
+  }
+  .branding .branding-dec h2 {
+    font-family: "Crimson Text", serif;
+    color: #333;
+    font-size: 39px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  .branding .branding-dec p {
+    font-size: 27px;
+    font-family: "Crimson Text", serif;
+  }
+  .world {
+    padding: 30px;
+  }
+  .world .world-dec h2 {
+    font-size: 30px;
+  }
+  .design {
+    padding: 30px;
+  }
+  .design .design-dec {
+    margin-top: 50px;
+  }
+  .design .design-dec h2 {
+    width: 100%;
+    font-size: 33px;
+  }
+  .design .design-dec p {
+    width: 100%;
+    font-size: 23px;
+  }
+  .optimizing {
+    padding: 30px;
+  }
+  .optimizing .optimizing-dec h2 {
+    width: 100%;
+    font-size: 33px;
+  }
+  .optimizing .optimizing-dec p {
+    width: 100%;
+    font-size: 23px;
+  }
+  .optimizing .optimizing-img img {
+    width: 80%;
+  }
+  .sells {
+    background-color: #fafaf9;
+    padding: 60px 30px;
+    position: relative;
+  }
+  .sells .sells-dec {
+    margin-bottom: 86px;
+  }
+  .sells .sells-dec h2 {
+    width: 100%;
+    font-size: 32px;
+  }
+  .sells .sells-img {
+    position: relative;
+  }
+  .sells .sells-img .img-One {
+    position: absolute;
+    top: -119px;
+    right: -185px;
+    width: 100%;
+    z-index: 2;
+  }
+  .sells .sells-img .img-Two {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    right: -254px;
+    top: -214px;
+  }
+}
+
+@media (max-width: 575px) {
+  .media-img {
+    display: block !important;
+  }
+  .media-img .design-img img {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,541 @@
+@include lg{
+  .but{
+    padding: 10px 10px;
+    font-size: 13px;
+  }
+  // navber
+  .navbar{
+    .navbar-collapse{
+      .navbar-nav{
+        margin-left: 10px;
+        .nav-item{
+          .nav-link{
+            color: $colorOne;
+            margin: 0 0 0 10px;
+            font-style: normal;
+            letter-spacing: -0.5px;
+            font-size: 17px;
+            font-family: $fontPrimry;
+            @include trans;
+            &:hover{
+              color: $colorTwe;
+            }
+          }
+        }
+      }
+    }
+  }
+  header{
+    .header-dec {
+      h3{
+        width: 100%;
+      font-size: 37px;
+      }
+      p {
+        margin-top: 20px;
+        width: 100%;
+        font-size: 22px;
+    }
+    }
+  }
+  // packaging
+.packaging{
+  padding: 30px 60px;
+  overflow: hidden;
+  position: relative;
+  .packaging-item{
+    .card{
+      padding: 1rem;
+      min-height: 18.125rem;
+      text-align: center;
+      .card-body{
+        position: relative;
+        img{
+          width: 30%;
+          margin: 30px 0;
+        }
+      }
+    }
+  }
+}
+// sweet
+.sweet{
+  padding: 26px;
+  .sweet-dec{
+    margin-top: 10px;
+    h2{
+      width: 100%;
+    font-size: 53px;
+    margin-bottom: 30px;
+    }
+  }
+  .sweet-purchase{
+    p {
+      width: 100%;
+      font-size: 33px;
+
+    }
+  }
+}
+//branding
+.branding{
+  padding: 70px 0;
+  .branding-dec{
+    width: 100%;
+    margin: auto;
+    h2{
+      font-family: $fontseCndery;
+      color: $colorOne;
+      font-size: 39px;
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+    p{
+      font-size: 27px;
+      font-family: $fontseCndery;
+    }
+  }
+}
+//world
+.world{
+  padding: 30px;
+  .world-dec{
+    h2{
+      font-size: 30px;
+    }
+  }
+  .world-img{
+    img{
+      width: 100%;
+    }
+  }
+}
+//design
+.design{
+  padding: 30px;
+  .design-img{
+    img{
+      width: 120%;
+    }
+  }
+  .design-dec{
+    margin-top: 50px;
+    h2{
+      width: 100%;
+      font-size: 33px;
+    }
+    p{
+      width: 100%;
+      font-size: 23px;
+    }
+  }
+}
+}
+
+@include md{
+  .media-img{
+    display: block !important;
+    .design-img{
+      img{
+        width: 90%;
+      }
+    }
+  }
+  // navber
+  .navbar{
+    .navbar-collapse{
+      .navbar-nav{
+        margin-left: 0px;
+        .nav-item{
+          .nav-link{
+            margin: 0;
+          }
+        }
+      }
+    }
+    .navbar-toggler{
+      padding: 15px 0 0;
+      i{
+        font-size: 30px;
+        &:hover{
+          color: $colorTwe;
+        }
+      }
+      &:hover{
+        outline: 0;
+      }
+      &:focus{
+        outline: 0;
+      }
+    }
+  }
+  // header
+  header{
+    .header-dec {
+      h3{
+        width: 100%;
+      font-size: 37px;
+      }
+      p {
+        margin-top: 20px;
+        width: 100%;
+        font-size: 22px;
+    }
+    }
+    .header-images {
+      top: 99px;
+      .img-element-3{
+        position: absolute;
+        top: 240px;
+        left: -10px;
+        z-index: 2;
+        width: 40%;
+      }
+  }
+  }
+  // process
+  .process{
+    padding: 50px 60px;
+  
+    h3{
+      font-family: $fontseCndery;
+      font-size: 30px;
+      color:$colorOne ;
+      width: 100%;
+      font-weight: 700;
+    }
+    p{
+      width: 100%;
+      font-size: 26px;
+      margin-top: 30px;
+      font-family: $fontseCndery;
+      color:$colorOne ;
+    }
+  }
+  // packaging
+.packaging{
+  padding: 30px 60px;
+  overflow: hidden;
+  position: relative;
+  .packaging-item{
+    .card{
+      padding: 1rem;
+      min-height: 18.125rem;
+      text-align: center;
+      .card-body{
+        position: relative;
+        img{
+          width: 30%;
+          margin: 30px 0;
+        }
+      }
+    }
+  }
+}
+//branding
+.branding{
+  padding: 70px 0;
+  .branding-dec{
+    width: 100%;
+    margin: auto;
+    h2{
+      font-family: $fontseCndery;
+      color: $colorOne;
+      font-size: 39px;
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+    p{
+      font-size: 27px;
+      font-family: $fontseCndery;
+    }
+  }
+}
+//world
+.world{
+  padding: 30px;
+  .world-dec{
+    h2{
+      font-size: 30px;
+    }
+  }
+  .world-img{
+    img{
+      width: 100%;
+    }
+  }
+}
+//design
+.design{
+  padding: 30px;
+  .design-img{
+    img{
+      width: 100%;
+    }
+  }
+  .design-dec{
+    margin-top: 50px;
+    h2{
+      width: 100%;
+      font-size: 33px;
+    }
+    p{
+      width: 100%;
+      font-size: 23px;
+    }
+  }
+}
+//optimizing
+.optimizing{
+  padding: 30px;
+  .optimizing-dec{
+    h2{
+      width: 100%;
+      font-size: 33px;
+    }
+    p{
+      width:100%;
+      font-size: 23px;
+    }
+  }
+  .optimizing-img{
+    img{
+      width: 80%;
+    }
+  }
+}
+// sells
+.sells{
+  background-color: #fafaf9;
+  padding: 60px 30px;
+  position: relative;
+  .sells-dec{
+    margin-bottom: 86px;
+    h2{
+      width: 100%;
+      font-size: 58px;
+    }
+  }
+  .sells-img{
+    position: relative;
+    .img-One{
+      position: absolute;
+      top: 17px;
+      z-index: 2;
+      width: 100%;
+      left: -63px;
+    }
+    .img-Two{
+      position: absolute;
+      width: 100%;
+      z-index: 1;
+      right: -175px;
+      top: -38px;  
+    }
+  }
+}
+}
+
+
+@include sm{
+  // header
+  header{
+    padding: 11px 15px;
+    .header-dec {
+      h3{
+        width: 100%;
+      font-size: 37px;
+      }
+      p {
+        margin-top: 20px;
+        width: 100%;
+        font-size: 22px;
+    }
+    }
+    .header-images{
+      position: relative;
+      top: 404px;
+      margin-bottom: 289px;
+  
+      .img-element-1{
+        position: relative;
+        z-index: 3;
+      }
+      .img-element-2{
+        position: absolute;
+        right: -10px;
+        top: 20px;
+        z-index: 1;
+        width: 50%;
+      }
+      .img-element-3{
+        position: absolute;
+        top: 200px;
+        left: -10px;
+        z-index: 2;
+        width: 40%;
+      }
+    }
+  }
+  // process
+  .process{
+  padding: 50px 60px;
+
+  h3{
+    font-family: $fontseCndery;
+    font-size: 20px;
+    color:$colorOne ;
+    width: 100%;
+    font-weight: 700;
+  }
+  p{
+    width: 100%;
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: $fontseCndery;
+    color:$colorOne ;
+  }
+}
+// packaging
+.packaging{
+  padding: 30px 60px;
+  overflow: hidden;
+  position: relative;
+  .packaging-item{
+    .card{
+      padding: 1rem;
+      min-height: 18.125rem;
+      text-align: center;
+      .card-body{
+        position: relative;
+        img{
+          width: 30%;
+          margin: 30px 0;
+        }
+      }
+    }
+  }
+}
+// sweet
+.sweet{
+  padding: 26px;
+  .sweet-dec{
+    margin-top: 10px;
+    h2{
+      width: 100%;
+    font-size: 53px;
+    margin-bottom: 30px;
+    }
+  }
+  .sweet-purchase{
+    p {
+      width: 100%;
+      font-size: 22px;
+
+    }
+  }
+}
+//branding
+.branding{
+  padding: 70px 0;
+  .branding-dec{
+    width: 100%;
+    margin: auto;
+    h2{
+      font-family: $fontseCndery;
+      color: $colorOne;
+      font-size: 39px;
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+    p{
+      font-size: 27px;
+      font-family: $fontseCndery;
+    }
+  }
+}
+//world
+.world{
+  padding: 30px;
+  .world-dec{
+    h2{
+      font-size: 30px;
+    }
+  }
+  
+}
+//design
+.design{
+  padding: 30px;
+  .design-dec{
+    margin-top: 50px;
+    h2{
+      width: 100%;
+      font-size: 33px;
+    }
+    p{
+      width: 100%;
+      font-size: 23px;
+    }
+  }
+}
+//optimizing
+.optimizing{
+  padding: 30px;
+  .optimizing-dec{
+    h2{
+      width: 100%;
+      font-size: 33px;
+    }
+    p{
+      width:100%;
+      font-size: 23px;
+    }
+  }
+  .optimizing-img{
+    img{
+      width: 80%;
+    }
+  }
+}
+// sells
+.sells{
+  background-color: #fafaf9;
+  padding: 60px 30px;
+  position: relative;
+  .sells-dec{
+    margin-bottom: 86px;
+    h2{
+      width: 100%;
+      font-size: 32px;
+    }
+  }
+  .sells-img{
+    position: relative;
+    .img-One{
+      position: absolute;
+      top: -119px;
+      right: -185px;
+      width: 100%;
+      z-index: 2;
+    }
+    .img-Two{
+      position: absolute;
+      width: 100%;
+      z-index: 1;
+      right: -254px;
+      top: -214px;
+    }
+  }
+}
+}
+@include xs{
+  .media-img{
+    display: block !important;
+    .design-img{
+      img{
+        width: 90%;
+      }
+    }
+  }
+}

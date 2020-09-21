@@ -1,0 +1,38 @@
+.but{
+  background-color: $colorOne;
+  color: #fff;
+  padding: 10px 60px;
+  font-family: $fontPrimry;
+  @include trans;
+  &:hover{
+    color: #fff;
+    background-color:$colorTwe;
+  }
+}
+
+.h4{
+  margin-bottom: 1.5rem!important;
+  color: $colorOne;
+  font-family: $fontPrimry;
+  font-weight: 700;
+}
+.h2{
+  font-weight: 700;
+  color: $colorOne;
+  font-family: $fontseCndery;
+  margin-bottom: 1.5rem!important;
+}
+.p{
+  color: $colorOne;
+  font-family: $fontseCndery;
+  margin-bottom: 1.5rem!important;
+}
+.a{
+  margin-bottom: 1.5rem!important;
+  color: $colorTwe;
+  font-family: $fontPrimry;
+  font-weight: 700;
+}
+.img{
+  width: 90%;
+}

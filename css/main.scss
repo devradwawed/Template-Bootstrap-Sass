@@ -1,0 +1,413 @@
+@import"sass/variabeles";
+@import"sass/mixins";
+@import"sass/extend";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fixed-top{
+  background-color: #fff;
+}
+// --------------------------------------------------- navbar
+.navbar{
+  padding: 20px 30px;
+  .navbar-collapse{
+    .navbar-nav{
+      margin-left: 60px;
+      line-height: 20px;
+      .nav-item{
+        .nav-link{
+          color: $colorOne;
+          margin: 0 0 0 20px;
+          font-style: normal;
+          letter-spacing: -0.5px;
+          font-size: 17px;
+          font-family: $fontPrimry;
+          @include trans;
+          &:hover{
+            color: $colorTwe;
+          }
+        }
+      }
+    }
+  }
+}
+// --------------------------------------------------- Header
+header{
+  padding: 60px 30px;
+  position: relative;
+  .header-dec{
+    position: absolute;
+    top: 160px;
+    left: 40px;
+    h5{
+      font-size: 1.25rem;
+      margin-bottom: 20px;
+    }
+    h3{
+      width: 72%;
+      font-size: 72px;
+      font-family: "Crimson Text", serif;
+      font-weight: bold;
+      
+      span{
+        position: relative;
+        &::before{
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: url("https://www.smashbrand.com/wp-content/themes/smashbrand/assets/images/elements/underlines.svg");
+          background-position: bottom;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+    p{
+      margin-top: 20px;
+      width: 72%;
+      font-size: 22px;
+    }
+  }
+  .header-images{
+    position: relative;
+    overflow: hidden;
+    .img-element-2{
+      position: absolute;
+      right: -30px;
+      top: 20px;
+      z-index: 1;
+      width: 50%;
+    }
+    .img-element-3{
+      position: absolute;
+      top: 400px;
+      left: -10px;
+      z-index: 2;
+      width: 40%;
+    }
+  }
+}
+// --------------------------------------------------- process
+.process{
+  padding: 40px 60px;
+
+  h3{
+    font-family: $fontseCndery;
+    font-size: 50px;
+    color:$colorOne ;
+    width: 50%;
+    font-weight: 700;
+  }
+  p{
+    width: 50%;
+    font-size: 24px;
+    margin-top: 30px;
+    font-family: $fontseCndery;
+    color:$colorOne ;
+  }
+}
+// --------------------------------------------------- packaging
+.packaging{
+  padding: 40px 60px;
+  overflow: hidden;
+  position: relative;
+  .packaging-item{
+    .card{
+      padding: 4rem;
+      min-height: 28.125rem;
+      @include trans;
+      .card-body{
+        position: relative;
+        img{
+          width: 50%;
+          margin-bottom: 50px;
+        }
+        .card-title{
+          color: $colorOne;
+          font-family: $fontPrimry;
+          margin-bottom: 1rem!important;
+          font-weight: 700;
+        }
+        .card-text{
+          color: $colorOne;
+          font-family: $fontseCndery;
+          font-size: 20px;
+          font-weight: 400;
+        }
+
+      }
+      .number{
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        font-size: 22px;
+        color: $colorTwe;
+        font-weight: 700;
+      }
+      &::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 5px;
+        background: $colorTwe;
+        @include trans;
+      }
+      &:hover::before{
+        width: 100%;
+      }
+      &:hover{
+        box-shadow: 1px -1px 18px 7px rgba(0,0,0,.1);
+      }
+    }
+  }
+}
+// --------------------------------------------------- sweet
+.sweet{
+  background-image: url("https://www.smashbrand.com/wp-content/uploads/2020/07/casestudy-ornament.png");
+  background-position:  bottom right ;
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-color: #fafaf9;
+  overflow: hidden;
+  padding: 140px 0 0;
+  position: relative;
+  .sweet-img{
+    img{
+      width: 110%;
+      transform: translateX(-10%);
+      -webkit-transform: translateX(-10%);
+      -moz-transform: translateX(-10%);
+      -ms-transform: translateX(-10%);
+      -o-transform: translateX(-10%);
+    }
+    .sweet-img-element{
+      position: absolute;
+      bottom: -50px;
+      right: 10px;
+      width: 30%;
+    }
+  }
+  .sweet-dec{
+    margin-top: 181px;
+    h2{
+      position: relative;
+      width: 72%;
+      font-size: 72px;
+      font-family: $fontseCndery;
+      font-weight: 700;
+      color: $colorOne;
+      letter-spacing: -2px;
+        line-height: 72px;
+        text-transform: capitalize;
+        margin-bottom: 100px;
+        span{
+          &::before{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 40%;
+            height: 170%;
+            background-image: url("https://www.smashbrand.com/wp-content/themes/smashbrand/assets/images/elements/underlines.svg");
+            background-position: bottom;
+            background-repeat: no-repeat;
+          }
+        }
+    }
+  }
+  .sweet-purchase{
+    h5{
+      line-height: 1.1;
+      color: #dc0539;
+      font-size: 40px;
+      font-family: $fontPrimry;
+      font-weight: 700;
+      font-style: italic;
+
+    }
+    p{
+      margin-top: 20px;
+      width: 34%;
+      font-size: 22px;
+      font-family: $fontPrimry;
+      margin-bottom: 3px;
+    }
+    a{
+      color: $colorTwe;
+      font-size: 22px;
+    }
+  }
+}
+// --------------------------------------------------- branding
+.branding{
+  padding: 70px 0;
+  .branding-dec{
+    width: 50%;
+    margin: auto;
+    h2{
+      font-family: $fontseCndery;
+      color: $colorOne;
+      font-size: 59px;
+      font-weight: 700;
+      margin-bottom: 11px;
+    }
+    p{
+      font-size: 30px;
+      font-family: $fontseCndery;
+    }
+  }
+}
+// --------------------------------------------------- world
+.world{
+  padding: 30px 60px;
+  .world-dec{
+    h4{
+      @extend .h4;
+    }
+    h2{
+      @extend .h2;
+      font-size: 52px;
+    }
+    p{
+      @extend .p;
+      font-size: 22px;
+    }
+    a{
+      @extend .a;
+      font-size: 19px;
+      @include trans;
+      i{
+        margin-right: 12px;
+      }
+    }
+  }
+  .world-img{
+    img{
+      @extend .img;
+    }
+  }
+}
+// --------------------------------------------------- design
+.design{
+  padding: 30px 60px;
+  .design-img{
+    img{
+      @extend .img;
+    }
+  }
+  .design-dec{
+    margin-top: 50px;
+    h4{
+      @extend .h4;
+    }
+    h2{
+      @extend .h2;
+      width: 64%;
+      font-size: 43px;
+    }
+    p{
+      @extend .p;
+      width: 74%;
+      font-size: 23px;
+    }
+    a{
+      @extend .a;
+    }
+  }
+}
+// --------------------------------------------------- optimizing
+.optimizing{
+  padding: 30px 60px;
+  .optimizing-dec{
+    h4{
+      @extend .h4;
+    }
+    h2{
+      @extend .h2;
+      width: 64%;
+      font-size: 43px;
+    }
+    p{
+      @extend .p;
+      width: 74%;
+      font-size: 23px;
+    }
+    a{
+      @extend .a;
+    }
+  }
+  .optimizing-img{
+    img{
+      width: 80%;
+    }
+  }
+}
+//----------------------------------------------------- sells
+.sells{
+  background-color: #fafaf9;
+  overflow: hidden;
+  padding: 140px 0;
+  position: relative;
+  overflow-x: hidden;
+  .sells-dec{
+    h2{
+      width: 100%;
+      font-size: 82px;
+      font-family: $fontseCndery;
+      font-weight: 700;
+      color: $colorOne;
+        span{
+          position: relative;
+          &::before{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("https://www.smashbrand.com/wp-content/themes/smashbrand/assets/images/elements/underlines.svg");
+            background-position: bottom;
+            background-repeat: no-repeat;
+          }
+        }
+    }
+  }
+  .sells-img{
+    position: relative;
+    .img-One{
+      position: absolute;
+      top: -40px;
+      right: -312px;
+      z-index: 2;
+    }
+    .img-Two{
+      position: absolute;
+      width: 140%;
+      z-index: 1;
+      right: -341px;
+      top: -139px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import"sass/media";
